@@ -1,18 +1,18 @@
 # Bolha
 
-# Bolha ira pegar o ultimo elemento do arrey e com isso ira testa-lo ate encontrar algum menor  que o numero ou ate pecorrer o array inteiro;
+# O algorítmico Bolha ira utilizar de um duplo laço FOR , no qual ele ira percorrer o array , com o intuito de encontrar um elemento menor que ele , e com isso fazer a troca de posição .
+
 
 
 # Contras
- . Realiza varias comparacoes<br />
- . Numero quadratico de movimentacoes <br />
- . Estavel
-
+. Realiza varias comparações<br />
+. Número quadrático de movimentações<br />
+. Estável
 
 # Complexidade
- . Melhor caso :: so ira fazer uma comparacao<br />
- . Caso medio  :: depende o numero de inversoes no array<br />
- . Pior casos  :: array esta ordenado de forma decrescente
+. Melhor caso :: só ira fazer uma comparação<br />
+. Caso médio :: depende o número de inversões no array<br />
+. Pior casos :: array esta ordenado de forma decrescente
 
 # Ω = Melhor caso
 # Θ = Caso medio
