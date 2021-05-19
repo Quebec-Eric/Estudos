@@ -1,7 +1,6 @@
 # Insercao
 
-# O algorítmico de Insercao ira utilizar de um duplo laço de repeticao , sendo um deles um For e outro While
-# ele ira persupor que o primeiro elemnto presente no array ja esta ordenado com isso iremos fazer a averiguação começando no segundo elemnto , e assim iremos fazer as comparacoes utilizando uma variavel tmp(variavel temporaria ) na qual iremos testar o valor com os demais valores do array
+# O algorítmico de Insercao ira utilizar de um duplo laço de repeticao , sendo um deles um For e outro While ele ira persupor que o primeiro elemnto presente no array ja esta ordenado com isso iremos fazer a averiguação começando no segundo elemnto , e assim iremos fazer as comparacoes utilizando uma variavel tmp(variavel temporaria ) na qual iremos testar o valor com os demais valores do array
 
 
 
