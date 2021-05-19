@@ -1,6 +1,6 @@
 # Quicksort
 
-# O algorítmico Quicksort e um dos melhores algoritomos de ordenacao , esse se baseia na ideia de dividar para conquistar no qual iremos passar para funcao o lado esquedo(0) e o lado direito(tamanho de votor -1) e com isso achamos o pivo , mas eu acho melhro o ato de fazer a mediana de tres elementos aleatorios do array para nao ocorrer o risco de cair no pior caso , e aumentar bem minhas chances de obter o caso medio , que ainda e otimo
+# O algorítmico Quicksort e um dos melhores algoritmos de ordenação, esse se baseia na idéia de dividir para conquistar no qual iremos passar para função o lado esquerdo(0) e o lado direito(tamanho de votor -1) e com isso achamos o pivô, mas eu acho melhor o ato de fazer a mediana de três elementos aleatórios do array para não ocorrer o risco de cair no pior caso, e aumentar bem minhas chances de obter o caso médio, que ainda e ótimo
 
 #Vantagens
 .Extremamente eficiente
