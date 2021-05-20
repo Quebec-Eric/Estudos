@@ -3,7 +3,7 @@
 # O algorítmico Bolha ira utilizar de um duplo laço FOR , no qual ele ira percorrer o array , com o intuito de encontrar um elemento menor que ele , e com isso fazer a troca de posição .
 
 
-![alt text](http://url/to/heap.png)
+![alt text](heap.png)
 # Contras
 . Realiza varias comparações<br />
 . Número quadrático de movimentações<br />
