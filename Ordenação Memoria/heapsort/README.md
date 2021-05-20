@@ -1,6 +1,7 @@
-# Bolha
+# Heapsort
 
-# O algorítmico Bolha ira utilizar de um duplo laço FOR , no qual ele ira percorrer o array , com o intuito de encontrar um elemento menor que ele , e com isso fazer a troca de posição .
+# O algorítmico Heapsort encontra o maior elemento da lista e com isso troca com o ultimo elemento ate acabar o processo, sua maior diferencia e que ele utiliza de um Heap invertido com o intuito de selecionar o maior elemento de uma forma mais eficiente. Ele se baseia em um heap invertido onde o elemento raiz sera o maior elemento do hep , e seus filhos devem ser menores ou igas
+# Basicamente o algorítmico ira funcionar como uma forma de transpor a raiz com o menor de seus filhos e com isso ira parar de utilizar o número que foi trocado com isso ira diminuir a seqüência de execuções.
 
 
 # Imagem de como ira funcionar nosso codigo
@@ -16,17 +17,17 @@
 
 
 # Contras
-. Realiza varias comparações<br />
-. Número quadrático de movimentações<br />
+. Complexidade de intendimento<br />
+. inversões no codigo<br />
 . Estável
 
 # Complexidade
-. Melhor caso :: só ira fazer uma comparação<br />
-. Caso médio :: depende o número de inversões no array<br />
-. Pior casos :: array esta ordenado de forma decrescente
+. Melhor caso ::"  " <br />
+. Caso médio :: "  "<br />
+. Pior casos :: Todos os casos sao iguais
 
 # Ω = Melhor caso
 # Θ = Caso medio
 # O = Pior caso
 
-# Notacao        Ω(n)  Θ(n^2)  O(n^2)
+# Notacao        Ω(n*log(n))  Θ(n*log(n))  O(n*log(n))
