@@ -2,14 +2,19 @@
 
 # O algorítmico Bolha ira utilizar de um duplo laço FOR , no qual ele ira percorrer o array , com o intuito de encontrar um elemento menor que ele , e com isso fazer a troca de posição .
 
-#Imagem de como ira funcionar nosso codigo
+
+# Imagem de como ira funcionar nosso codigo
 ![alt text](heap.png)<br />
-.[imagem retirada do material de Aed2 , do curso Ciencia da computacao da Praca]<br />
+[imagem retirada do material de Aed2 , do curso Ciencia da computacao da Praca]<br />
 <br />
-#imagem intuitiva de como ira ficar nosso Heap invertido
+
+
+# Imagem intuitiva de como ira ficar nosso Heap invertido
 ![alt text](heapI.png)<br />
-.[imagem retirada do material de Aed2 , do curso Ciencia da computacao da Praca]<br />
+[imagem retirada do material de Aed2 , do curso Ciencia da computacao da Praca]<br />
 <br />
+
+
 # Contras
 . Realiza varias comparações<br />
 . Número quadrático de movimentações<br />
