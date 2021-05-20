@@ -8,6 +8,7 @@ public class Mergesort{
     }
   }
 
+/* funcao recursiva*/
   public static int [] mergesort(int []array,int esq, int dir) {
      if (esq < dir){
         int meio = (esq + dir) / 2;

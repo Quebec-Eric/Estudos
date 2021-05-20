@@ -11,7 +11,7 @@ int main (){
   return 0;
  }
 
-
+/* funcao recursiva*/
  int * mergesort(int array[],int esq, int dir) {
       if (esq < dir){
          int meio = (array,esq + dir) / 2;
