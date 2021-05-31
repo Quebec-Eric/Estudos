@@ -123,11 +123,11 @@ class Lista {
   }
 
   public void mostrar(){
-      System.out.print("[Cabeca] --> ");
+    //  System.out.print("[Cabeca] --> ");
     for (Celula i=primeiro.proximoElemento;i!=null ;i=i.proximoElemento ) {
-        System.out.print("["+i.elemento+"]"+"-->");
+        System.out.print(i.elemento+" ");
     }
-    System.out.print("[NULL] ");
+    System.out.println("");
   }
 
 
@@ -143,13 +143,26 @@ class Lista {
 
   }
 
+	public void RemovePos(int n){
+		if(n>0){
+			Celula i = primeiro.proximoElemento;
+			if(n==1){
+				primeiro.proximoElemento=primeiro.proximoElemento.proximoElemento;
+			}
+			else{
+				for(int saber=0;saber<n&&i.proximoElemento!=null;saber++,i=i.proximoElemento);
+				i.proximoElemento=i.proximoElemento.proximoElemento;
+			}
+		}
+	}
+
 }
 
 
 public class main {
 	public static void main(String[] args) {
 		try {
-			System.out.println("=== LISTA FLEXIVEL SIMPLESMENTE ENCADEADA ===");
+			//System.out.println("=== LISTA FLEXIVEL SIMPLESMENTE ENCADEADA ===");
 			Lista lista = new Lista();
 
 			lista.inserirInicio(1);
@@ -162,19 +175,11 @@ public class main {
 			lista.inserir(30, 0);
 			lista.inserirFim(7);
 			lista.inserirFim(8);
-    //  lista.mostrar();
-    //  lista.inverterLista();
-		//	lista.mostrar();
+      lista.mostrar();
+      lista.RemovePos(3);
+			lista.mostrar();
 
-    for(int i =0; i<10;i++,System.out.println(i));
 
-			int x1 = lista.remover(3);
-			int x2 = lista.remover(2);
-			int x3 = lista.removerFim();
-			int x4 = lista.removerInicio();
-			int x5 = lista.remover(0);
-			int x6 = lista.remover(4);
-			lista.inserirFim(9);
 
 		//	System.out.print("Apos remocoes (" +x1+ ", " +x2+ ", " +x3+ ", " +x4+ ", " +x5+ ", " +x6+ "): ");
 			//lista.mostrar();
