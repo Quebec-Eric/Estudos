@@ -1,0 +1,1 @@
+# A coleta de lixo , em Java já realiza automaticamente a coleta mais em C as coisas são diferentes, com isso e de extrema importância a coleta de lixo , pois em C não existe algo que pegue os espações de memória não utilizados com isso o seu programa se vc nao coletar ou dar o free ele ira alocar memória sem parar, com isso pode bugar o Seu pc
