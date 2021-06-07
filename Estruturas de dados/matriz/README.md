@@ -9,13 +9,13 @@
 
 
 
-#        NULL NULL
-#         ^    ^
-#         |    |
-#  NULL<- 1 -> 2 -> NULL
-#         |    ^
-#         V    |
-#  NULL<- 3 -> 4 ->NUll
-#         |    |
-#         V    V
-#        NULL NULL
+        NULL NULL
+         ^    ^
+         |    |
+  NULL<- 1 -> 2 -> NULL
+         |    ^
+         V    |
+  NULL<- 3 -> 4 ->NUll
+         |    |
+         V    V
+        NULL NULL
