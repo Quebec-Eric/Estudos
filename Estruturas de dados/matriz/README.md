@@ -6,16 +6,3 @@
 
 
 # Quando vamos entrar na matriz temos que fazer dois lacos de repeticao um para ir entre as linhas e outra para as colunas e com isso  quando chegamos no elemento que queremos basta fazer b.elemento que ele nos dara o elemento que esta contido na posicao desejada
-
-
-
-        NULL NULL
-         ^    ^
-         |    |
-  NULL<- 1 -> 2 -> NULL
-         |    ^
-         V    |
-  NULL<- 3 -> 4 ->NUll
-         |    |
-         V    V
-        NULL NULL
