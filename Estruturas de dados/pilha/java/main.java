@@ -69,6 +69,15 @@ class Celula{
         for (Celula i= topo;i!=null;total+=i.elemento,i=i.proximoElemento);
         return total;
       }
+      void imprimeBinario(int n) {
+   // Declaração da estrutura de dados X
+   while (n > 0) {
+      i.insere(n % 2);
+      n /= 2;
+   }
+   while(!.vazia())
+      System.out.print(X.retira());
+}
 
 }
 public class main {
@@ -92,7 +101,7 @@ public class main {
           System.out.println();
           System.out.println();
         System.out.println("Pilha sem os valores removidos");
-        pilha.mostrar();
+        pilha.imprimeBinario(4);
 
         System.out.println("Soma dos valores ="+ pilha.somaValores());
 
